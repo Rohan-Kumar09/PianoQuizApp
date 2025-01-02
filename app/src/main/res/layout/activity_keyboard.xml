@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/piano_quiz_background"
+    android:orientation="vertical">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!-- for white keys -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingHorizontal="28dp">
+
+                <Button
+                    android:id="@+id/a0"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/b0"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/c1"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/d1"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/e1"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/f1"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/g1"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/a1"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/c2"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/d2"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/e2"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/f2"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/g2"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/a2"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/c3"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/d3"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/e3"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/f3"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/g3"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/a3"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/c4"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/d4"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/e4"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/f4"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/g4"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/a4"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/b4"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/c5"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/d5"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/e5"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/f5"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/g5"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/a5"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/b5"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/c6"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/d6"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/e6"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/f6"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/g6"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/a6"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/b6"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/c7"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/d7"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/e7"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/f7"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/g7"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/a7"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/b7"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+
+                <Button
+                    android:id="@+id/c8"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/white_key_height"
+                    tools:ignore="ButtonStyle"
+                    android:backgroundTint="#3c38ff"/>
+            </LinearLayout>
+
+            <!-- for black keys -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    android:textColor="#fff"
+                    android:visibility="invisible"
+                    tools:ignore="ButtonStyle"/>
+
+                <Button
+                    android:id="@+id/as0"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    android:textColor="#fff"
+                    tools:ignore="ButtonStyle"/>
+
+                <Button
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    android:textColor="#fff"
+                    android:visibility="invisible"
+                    tools:ignore="ButtonStyle"/>
+
+                <Button
+                    android:id="@+id/cs1"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    android:textColor="#fff"
+                    tools:ignore="ButtonStyle"/>
+
+                <Button
+                    android:id="@+id/ds1"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    android:textColor="#fff"
+                    tools:ignore="ButtonStyle"/>
+
+                <Button
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    android:textColor="#fff"
+                    android:visibility="invisible"
+                    tools:ignore="ButtonStyle"/>
+
+                <Button
+                    android:id="@+id/fs1"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/gs1"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/as1"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    android:textColor="#fff"
+                    android:visibility="invisible"
+                    tools:ignore="ButtonStyle"/>
+
+                <Button
+                    android:id="@+id/cs2"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/ds2"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    android:textColor="#fff"
+                    android:visibility="invisible"
+                    tools:ignore="ButtonStyle"/>
+
+                <Button
+                    android:id="@+id/fs2"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/gs2"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/as2"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    android:textColor="#fff"
+                    android:visibility="invisible"
+                    tools:ignore="ButtonStyle"/>
+
+                <Button
+                    android:id="@+id/cs3"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/ds3"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    android:textColor="#fff"
+                    android:visibility="invisible"
+                    tools:ignore="ButtonStyle"/>
+
+                <Button
+                    android:id="@+id/fs3"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/gs3"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/as3"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle,TooManyViews"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    android:textColor="#fff"
+                    android:visibility="invisible"
+                    tools:ignore="ButtonStyle,TooManyViews"/>
+
+                <Button
+                    android:id="@+id/cs4"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/ds4"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    android:textColor="#fff"
+                    android:visibility="invisible"
+                    tools:ignore="ButtonStyle"/>
+
+                <Button
+                    android:id="@+id/fs4"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/gs4"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/as4"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    android:textColor="#fff"
+                    android:visibility="invisible"
+                    tools:ignore="ButtonStyle"/>
+
+                <Button
+                    android:id="@+id/cs5"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/ds5"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    android:textColor="#fff"
+                    android:visibility="invisible"
+                    tools:ignore="ButtonStyle"/>
+
+                <Button
+                    android:id="@+id/fs5"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/gs5"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/as5"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    android:textColor="#fff"
+                    android:visibility="invisible"
+                    tools:ignore="ButtonStyle"/>
+
+                <Button
+                    android:id="@+id/cs6"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/ds6"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    android:textColor="#fff"
+                    android:visibility="invisible"
+                    tools:ignore="ButtonStyle"/>
+
+                <Button
+                    android:id="@+id/fs6"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/gs6"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/as6"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    android:textColor="#fff"
+                    android:visibility="invisible"
+                    tools:ignore="ButtonStyle"/>
+
+                <Button
+                    android:id="@+id/cs7"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/ds7"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    android:textColor="#fff"
+                    android:visibility="invisible"
+                    tools:ignore="ButtonStyle"/>
+
+                <Button
+                    android:id="@+id/fs7"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/gs7"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+
+                <Button
+                    android:id="@+id/as7"
+                    android:layout_width="@dimen/white_key_width"
+                    android:layout_height="@dimen/black_key_height"
+                    android:backgroundTint="@color/black"
+                    tools:ignore="ButtonStyle"
+                    android:textColor="#fff" />
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </HorizontalScrollView>
+
+<!--    <TextView-->
+<!--        android:textSize="120sp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content" />-->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Note Played:"
+        android:textColor="#000"
+        android:textSize="30sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/notePlayed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:gravity="center"
+        android:textColor="#000" />
+
+    <ImageButton
+        android:id="@+id/backButton2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/white_key_width"
+        android:contentDescription="@string/back_button_text"
+        android:src="@drawable/baseline_arrow_back_24"/>
+
+</LinearLayout>

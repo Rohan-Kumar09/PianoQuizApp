@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PianoNotesQuiz</string>
+    <string name="back_button_text">Go Back</string>
+    <string name="forward_button_text">Go to the Next Question</string>
+    <string name="play">Play</string>
+    <string name="quit">Quit</string>
+    <string name="audio_button">Play Audio</string>
+    <string name="play_audio">Play Audio</string>
+    <string name="replay_audio">Replay Audio</string>
+    <string name="Question_Number">Question #</string>
+    <string name="score">Score:</string>
+    <string name="right">That was the Right Answer !</string>
+    <string name="wrong">That was the Wrong Answer !</string>"
+    <string name="correct_answer">The correct answer is: </string>
+    <string name="score_prompt">Your Scored: </string>
+    <string name="keyboard">Keyboard</string>
+    <string name="custom_quiz">Chose Notes</string>
+</resources>
